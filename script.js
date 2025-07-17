@@ -27,6 +27,16 @@ const grades = [
     ],
   },
   {
+  name: "S460JR",
+  limits: [
+    { maxT: 3, yieldMin: 460, tensile: [550, 720], elong: 17 },
+    { maxT: 100, yieldMin: 440, tensile: [550, 720], elong: 17 },
+    { maxT: 150, yieldMin: 430, tensile: [530, 710], elong: 17 },
+    { maxT: 400, yieldMin: 430, tensile: [530, 710], elong: 17 },
+  ],
+},
+
+  {
     name: "S500J0",
     limits: [
       { maxT: 3, yieldMin: 500, tensile: [580, 760], elong: 17 },
